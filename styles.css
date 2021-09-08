@@ -12,17 +12,6 @@ body {
   background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-  color: #fff;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23d5ab);
-  background-size: 400% 400%;
-  -webkit-animation: change 6s ease-in-out infinite;
-          animation: change 6s ease-in-out infinite;
-  padding-top: 1px;
-}
-
 .calculator-grid {
   display: -ms-grid;
   display: grid;
@@ -84,27 +73,4 @@ section {
   font-size: 2.5rem;
 }
 
-@-webkit-keyframes change {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
-
-@keyframes change {
-  0% {
-    background-position: 0 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
-}
 /*# sourceMappingURL=styles.css.map */
