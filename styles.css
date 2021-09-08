@@ -37,6 +37,7 @@ body {
 
 .calculator-grid button:hover {
   background: rgba(255, 255, 255, 0.9);
+  transition: 0.1s;
 }
 
 .calculator-grid .span-two {
