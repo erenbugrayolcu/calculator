@@ -83,9 +83,7 @@ class Calculator {
         this.previousOperandTextElement.innerText = ''
       }
 
-      if(currentOperandTextElement.innerText == '31'){
-        currentOperandTextElement.replaceWith('☺');
-      }
+      
     }
   }
   
